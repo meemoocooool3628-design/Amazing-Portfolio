@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohamed Ayman | Frontend Developer</title>
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/WhatsApp_Imadge_2026-02-09_at_9.32.17_PM-removebg-preview.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./assets//WhatsApp_Imadge_2026-02-09_at_9.32.17_PM-removebg-preview.png">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ 
+
+
+<!-- NAVBAR -->
+<nav  class="navbar">
+  <h2 class="logo"><a href="#home">MA.</a></h2>
+
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+  </ul>
+
+  <div class="menu-btn">☰</div>
+</nav>
+<br>
+<br>
+<br>
+<div class="scroll-indicator">
+  <svg width="50" height="50">
+    <defs>
+      <linearGradient id="gradient">
+        <stop offset="0%" stop-color="#6C63FF"/>
+        <stop offset="100%" stop-color="#00D1FF"/>
+      </linearGradient>
+    </defs>
+    <circle cx="25" cy="25" r="20"></circle>
+    <circle cx="25" cy="25" r="20" class="progress"></circle>
+  </svg>
+</div>
+
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>Hello, I'm <span >Mohamed Ayman</span></h1>
+    <p>I build fast, modern websites that help businesses grow 🚀</p>
+    <div class="hero-buttons">
+  <a href="#projects" class="btn"><span style="color: white;">My projects</span></a>
+  <a href="#contact" class="btn outline"><span style="color: white;">contact</span></a>
+</div>
+  </div>
+
+  <div class="hero-img">
+    <img src="./assets/WhatsApp_Imadge_2026-02-09_at_9.32.17_PM-removebg-preview.png">
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about reveal">
+  <h2>About Me</h2>
+  <p>
+   I’m a frontend developer focused on building clean, responsive websites
+      using HTML, CSS, JavaScript, and GSAP animations. I create smooth user experiences
+      and visually engaging websites.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills reveal">
+  <h2>Skills</h2>
+
+  <div class="skill">
+    <span>HTML</span>
+    <div class="progress"><div style="width:95%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>CSS</span>
+    <div class="progress"><div style="width:90%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>JavaScript</span>
+    <div class="progress"><div style="width:75%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>React</span>
+    <div class="progress"><div style="width:60%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>Bootstrap</span>
+    <div class="progress"><div style="width:90%"></div></div>
+  </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="projects reveal">
+  <h2>Projects</h2>
+<br>
+<br>
+  <div class="projects-container">
+
+    <div class="card">
+      <img src="./assets/Screenshot (10).png">
+      <h3>Sheikh Elbalad</h3>
+      <p>Modern resturant page</p>
+      <div class="card-btns">
+        <a href="https://meemoocooool3628-design.github.io/shiekh-elbalad/">Live</a>
+        <a href="https://github.com/meemoocooool3628-design/shiekh-elbalad">Code</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/Screenshot (9).png">
+      <h3>Landing page caffe</h3>
+      <p>full Responsive Page</p>
+      <div class="card-btns">
+        <a href="https://lustrous-arithmetic-e864f1.netlify.app/  ">Live</a>
+        <a href="https://github.com/meemoocooool3628-design/MAZAG-Cafe">Code</a>
+      </div>
+    </div>
+
+
+<div class="card">
+      <img src="./assets/لقطة الشاشة 2026-03-28 203856.png">
+      <h3>Company Landing Page</h3>
+      <p>Clean UI design</p>
+      <div class="card-btns">
+        <a href="https://voluble-crostata-0d9342.netlify.app/">Live</a>
+        <a href="https://github.com/meemoocooool3628-design/company-landing-page.git">Code</a>
+      </div>
+    </div>
+
+
+
+
+    
+
+
+
+
+  </div>
+</section>
+
+<section id="contact" class="contact reveal">
+  <h2>Contact Me</h2>
+  <p>"What are you waiting for? Let’s get started!"   🚀</p>
+
+  <form id="contact-form">
+    <div class="form-group">
+      <input type="text" id="name" required>
+      <label for="name">Your Name</label>
+    </div>
+
+    <div class="form-group">
+      <input type="email" id="email" required>
+      <label for="email">Your Email</label>
+    </div>
+
+    <div class="form-group">
+      <textarea id="message" rows="5" required></textarea>
+      <label for="message">Your Message</label>
+    </div>
+
+    <button type="submit" class="btn"><span>Send Message</span></button>
+    <p class="form-feedback"></p>
+  </form>
+</section>
+<br>
+<br>
+
+<script src="main.js"></script>
+</body>
+</html>
